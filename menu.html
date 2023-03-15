@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="main-border">
+      <div class="main-img">
+        <img class="main-img" src="img/Screenshot .jpg" alt="" />
+      </div>
+
+      <h1 class="visit-text">زرنا عبر</h1>
+      <span class="visit-options">خيارات الدخول</span>
+      <a href="optionsVisitor.html">
+        <button class="secound"></button>
+      </a>
+      <span class="visit">الزائر</span>
+      <button class="first"></button>
+      <span class="owner">المالك</span>
+      <span class="dot dot1"></span>
+      <span class="dot dot2"></span>
+      <span class="dot dot3"></span>
+      <div class="twiteer-img">
+        <a href="https://twitter.com/ccis_imamu?lang=ar Code CSS">
+          <img class="twiteer-img" src="img/twiteer.png" alt="" />
+        </a>
+      </div>
+      <div class="email-img">
+        <a href="email.html">
+          <img class="email-img" src="img/email.png" alt="" />
+        </a>
+      </div>
+      <div class="us-img">
+        <a href="Us.html">
+          <img class="us-img" src="img/waAre.png" alt="" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .main-border {
+    width: 390px;
+    height: 824px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    border: 1px solid #000; /* ايطار*/
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .main-img {
+    margin: 40 45 44 44 auto;
+    margin-left: 17%;
+    width: 190px;
+    position: absolute;
+  }
+
+  .visit-options {
+    width: 227px;
+    color: rgba(70, 147, 153, 1);
+    position: absolute;
+    top: 380px;
+    left: 156px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-family: Outfit;
+    font-weight: Bold;
+    font-size: 36px;
+    opacity: 1;
+    text-align: left;
+  }
+  .secound {
+    width: 330px;
+    height: 60px;
+    background: rgba(67, 150, 156, 1);
+    opacity: 1;
+    position: absolute;
+    top: 560px;
+    left: 31px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .secound:active {
+    background-color: rgb(98, 177, 181);
+  }
+  .visit {
+    width: 35px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 570px;
+    left: 170px;
+    font-family: Outfit;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .owner {
+    width: 35px;
+    color: rgb(248, 241, 241);
+    position: absolute;
+    top: 485px;
+    left: 170px;
+    font-family: Outfit;
+    font-size: 24px;
+    opacity: 1;
+    text-align: left;
+  }
+  .first {
+    width: 330px;
+    height: 60px;
+    background: rgba(67, 150, 156, 1);
+    opacity: 1;
+    position: absolute;
+    top: 470px;
+    left: 33px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .first:active {
+    background-color: rgb(98, 177, 181);
+  }
+  .visit-text {
+    width: 90px;
+    color: #969494;
+    position: absolute;
+    top: 620px;
+    left: 155px;
+    font-weight: Bold;
+    font-size: 25px;
+    opacity: 1;
+    display: inline-table;
+    right: 122%;
+  }
+  .visit-text::before {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    height: 2px;
+    background: rgba(67, 150, 156, 1);
+    position: absolute;
+    right: 130%;
+    top: 80%;
+  }
+  .visit-text::after {
+    content: "";
+    display: inline-block;
+    width: 90px;
+    height: 2px;
+    background: rgba(67, 150, 156, 1);
+    position: absolute;
+    left: 125%;
+    top: 80%;
+  }
+  .dot {
+    height: 55px;
+    width: 55px;
+    background-color: rgba(67, 150, 156, 1);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 84%;
+  }
+  .dot3 {
+    right: 10%;
+    left: 40%;
+  }
+  .dot2 {
+    right: 10%;
+    left: 28%;
+  }
+  .dot1 {
+    right: 10%;
+    left: 15%;
+  }
+
+  .twiteer-img {
+    margin: 40 45 44 44 auto;
+    margin-left: 17%;
+    width: 110px;
+    position: absolute;
+    top: 80.3%;
+    left: 32.5%;
+  }
+  .email-img {
+    margin: 40 45 44 44 auto;
+    margin-left: 17%;
+    width: 45.5px;
+    position: absolute;
+    top: 84.5%;
+    left: 22.7%;
+  }
+  .us-img {
+    margin: 40 45 44 44 auto;
+    margin-left: 17%;
+    width: 55px;
+    position: absolute;
+    top: 84.8%;
+    right: 62%;
+    color: antiquewhite;
+  }
+</style>
