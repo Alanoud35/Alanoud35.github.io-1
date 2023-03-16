@@ -41,8 +41,28 @@
     margin-left: 4%;
     width: 320px;
   }
+  .desktop{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-desktop{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;  
+  }
 
+@media screen and (min-width: 490px) {
+  .main-border{
+    display: none;
+  }
+}
 @media screen and (max-width:480px) {
+  .desktop{
+    display: none;
+  }
     .main-border{
         padding: 80px 0px;
         background-image: url("img/Group 6.png");
