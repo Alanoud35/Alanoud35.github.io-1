@@ -1,108 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <div class="main-border">
-      <span class="welcome-text"
-        >اهلا بزائرنا ! لأن أصحاب الهمم هم اولويتنا نرغب بمد يد العون لمن
-        يحتاج</span
-      >      
-        <a href="">
-          <button class="btn-btn1">شكرا لا احتاج للمساعدة</button>
-        </a>
-        <a href="">
-          <button class="btn-btn2"> احتاج للمساعدة</button>
-        </a>
-        <img class="specialneed-img" src="img/specialneed.png" alt=""> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/optionVisitor.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>optionsVisitor</title>
+</head>
+<body>
+  <section>
+    <div class="img">
+      <img src="/img/undraw_web_browsing_p-77-h-1.svg" alt="" width="400px">
+    </div>
+    <div class="option">
+      <div class="title">
+        فضلا اختر الخيار المناسب
+      </div>
+      <div class="option-button">
+        <div class="option-one">
+          <div class="tooltip">
+            <div id="tooltip-text">
+              <div>hello</div>
+            </div>
+            <img class="i" src="/img/question-mark.png" alt="" width="50px">
+          </div>
+          <a href="" class="v1">أرشدني</a>
+        </div>
+        <div class="option-one">
+          <div class="tooltip down">
+            <div id="tooltip-text">
+              <div>hello</div>
+            </div>
+            <img class="i" src="/img/question-mark.png" alt="" width="50px">
+          </div>
+          <a href="" class="v1">رافقني</a>
+        </div>
       </div>
     </div>
-  </body>
+  </section>
+</body>
 </html>
 
-<style>
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    font-size: 14px;
-  }
-  .main-border {
-    width: 390px;
-    height: 824px;
-    background: rgba(255, 255, 255, 1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    border: 1px solid #000; /* ايطار*/
-    left: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    overflow: hidden;
-  }
-  .specialneed-img{
-    margin: 40 45 44 44 auto;
-    margin-left: 17%;
-    width: 55px;
-    position: absolute;
-    top: 84.8%;
-    right: 62%;
-    color: antiquewhite;
-  }
-
-  .welcome-text {
-    width: 354px;
-    color: rgba(70, 147, 153, 1);
-    position: absolute;
-    top: 101px;
-    left: 19px;
-    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    font-family: Outfit;
-    font-weight: Bold;
-    font-size: 36px;
-    opacity: 1;
-    text-align: center;
-  }
-  
- 
-  .btn-btn1 {
-    width: 330px;
-    height: 60px;
-    padding: 15px 32px;
-    color: rgb(246, 248, 248);
-    background-color: rgba(67, 150, 156, 1);
-    opacity: 1;
-    position: absolute;
-    top: 520px;
-    left: 34px;
-    text-align: center;
-     font-size: 30px;
-    border-radius: 10px;
-     border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    font-family: Outfit;
-     font-size: 24px;
-  }
-  .btn-btn2{
-    width: 330px;
-    height: 60px;
-    padding: 15px 32px;
-    color: rgb(246, 248, 248);
-    background-color:rgba(67, 150, 156, 1);
-    opacity: 1;
-    position: absolute;
-    top: 421px;
-    left: 34px;
-    text-align: center;
-     font-size: 30px;
-    border-radius: 10px;
-     border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    font-family: Outfit;
-     font-size: 24px;
-  }
-  .btn:active {
-    background-color: rgb(98, 177, 181);
-  }
-</style>
