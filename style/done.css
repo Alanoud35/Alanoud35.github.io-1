@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Tajawal";
+}
+a {
+    text-decoration: none;
+    color: #43969c;
+    transition: 0.5s;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #43969c;
+}
