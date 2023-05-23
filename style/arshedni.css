@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+     padding: 0;
+    margin: 0;
+    font-family: "Tajawal";
+  }
+  body {
+    font-size: 14px;
+    background-image: url("img/background-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #43969c;
+    transition: 0.5s;
+  }
+  section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    #menu {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .desktop {
+      display: none;
+    }
+  }
+  .main-border {
+    width: 390px;
+    height: 824px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    border: 1px solid #000; /* ايطار*/
+    left: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .quastion{
+    width: 400px;
+    color: rgba(70, 147, 153, 1);
+    position: absolute;
+    top: 350px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-family: Outfit;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .quastion2{
+    width: 200px;
+    color: rgba(70, 147, 153, 1);
+    position: absolute;
+    top: 450px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-family: Outfit;
+    font-weight: Bold;
+    font-size: 18px;
+    left: 200px;
+    opacity: 1;
+    text-align: center;
+  }
+
+  .answer{
+    width: 350px;
+    height: 60px;
+    color: #0a0a0a;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    font-weight: Bold;
+    text-align: center;
+  }
+  .main-help{
+   top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+  }
+ 

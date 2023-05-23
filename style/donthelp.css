@@ -9,7 +9,7 @@ a {
   color: #43969c;
   transition: 0.5s;
 }
-section{
+section {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -17,13 +17,24 @@ section{
   justify-content: center;
   align-items: center;
 }
-.input-text{
+.newsec {
+  display: inline;
+  margin-bottom: 80px;
+}
+.faqimg {
+  width: 50px;
+  flex-direction: unset;
+  padding-left: 20px;
+  background-color: white;
+  border-color: white;
+}
+.input-text {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.search{
+.search {
   direction: rtl;
   height: 60px;
   width: 318px;
@@ -31,39 +42,38 @@ section{
   margin: 30px 0px;
   border-radius: 10px;
   border: 0;
-  border : 1px solid rgba(0, 0, 0, 0.514);
+  border: 1px solid rgba(0, 0, 0, 0.514);
 }
-select{
+
+select {
   margin: 40px;
   height: 60px;
   width: 318px;
   text-align: center;
   border-radius: 10px;
   border: 0;
-  border : 1px solid rgba(0, 0, 0, 0.514);
+  border: 1px solid rgba(0, 0, 0, 0.514);
 }
-option{
+option {
   border-radius: 0;
   text-align: center;
 }
-.btn{
-  margin: 50px 0px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+.btn {
+  margin-top: 60px;
+  padding-left: 70px;
 }
-.btn a{
+.btn a {
   background-color: #43969c;
   color: white;
   padding: 16px 120px;
   font-size: 20px;
   border-radius: 10px;
 }
-.btn a:hover{
+.btn a:hover {
   filter: brightness(120%);
 }
-@media screen and (min-width: 600px){
-  body{
+@media screen and (min-width: 600px) {
+  body {
     display: none;
   }
 }

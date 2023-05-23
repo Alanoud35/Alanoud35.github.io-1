@@ -28,17 +28,9 @@ section {
   font-size: 20px;
   font-weight: 500;
 }
-.specialneed-img {
-  margin-left: 11%;
-  width: 55px;
-  position: fixed;
-  top: 84.8%;
-  right: 62%;
-  color: rgb(11, 11, 11);
-}
 
 .welcome-text {
-  width: 354px;
+  width: 300px;
   color: rgba(70, 147, 153, 1);
   position: absolute;
   text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -49,26 +41,29 @@ section {
   text-align: center;
 }
 .tx1 {
-  top: 121px;
-  left: 59px;
-  font-size: 46px;
-}
-.tx2 {
-  top: 341px;
-  left: 59px;
+  top: 290px;
+  left: 49px;
   font-size: 40px;
 }
-
+.tx2 {
+  top: 368px;
+  left: 49px;
+  font-size: 32px;
+}
+.img-welcome {
+  padding-bottom: 500px;
+  width: 400px;
+  padding-left: 20px;
+}
 .btn-btn1 {
-  width: 380px;
+  width: 330px;
   height: 60px;
-  padding: 15px 32px;
   color: rgb(246, 248, 248);
   background-color: rgba(67, 150, 156, 1);
   opacity: 1;
   position: absolute;
-  top: 750px;
-  left: 54px;
+  top: 640px;
+  left: 39px;
   text-align: center;
   font-size: 30px;
   border-radius: 10px;
@@ -77,18 +72,18 @@ section {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
   font-family: Outfit;
-  font-size: 24px;
+  font-size: 20px;
 }
 .btn-btn2 {
-  width: 380px;
+  width: 330px;
   height: 60px;
   padding: 15px 32px;
   color: rgb(246, 248, 248);
   background-color: rgba(67, 150, 156, 1);
   opacity: 1;
   position: absolute;
-  top: 651px;
-  left: 54px;
+  top: 548px;
+  left: 39px;
   text-align: center;
   font-size: 30px;
   border-radius: 10px;
@@ -103,7 +98,7 @@ section {
   background-color: rgb(98, 177, 181);
 }
 @media screen and (min-width: 1200px) {
-  #menu {
+  #who {
     display: none;
   }
 }
